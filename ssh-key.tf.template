@@ -1,0 +1,4 @@
+variable "ssh-key" {
+  default     = "${KEY_GENERATED_BY_SCRIPT}"
+  description = "ssh-key fiap-mgmt"
+}
